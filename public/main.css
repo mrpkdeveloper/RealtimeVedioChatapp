@@ -1,0 +1,51 @@
+video {
+  transform: rotateY(180deg);
+}
+
+.select {
+  height: 30px;
+}
+
+.h-90 {
+  height: 90% !important;
+}
+
+.h-10 {
+  height: 10% !important;
+}
+
+#peerVideo:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vediocontainer {
+  /* border: solid 1px black; */
+  position: absolute;
+  top: 8%;
+  height: 80vh;
+  width: 20%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vediodiv {
+  margin-top: 5%;
+  /* border: solid 2px black; */
+  height: 45%;
+  width: 100%;
+  position: relative;
+  /* left: 90%; */
+  right: 0px;
+}
+.vediop {
+  /* border: solid 2px black; */
+  height: 100%;
+}
