@@ -49,15 +49,11 @@ video {
   /* border: solid 2px black; */
   height: 100%;
 }
-#editor {
+.editor {
   height: 80%;
   width: 65%;
   position: absolute;
   top: 2%;
   left: 2%;
-  color: white;
-}
-
-#editor::placeholder {
   color: white;
 }
