@@ -40,7 +40,7 @@
 //   editor.value = data;
 // });
 
-var socket = io("http://localhost:3000");
+var socket = io();
 const l = console.log;
 function getEl(id) {
   return document.getElementById(id);
